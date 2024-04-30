@@ -72,7 +72,7 @@ python ./projects/easydeploy/tools/export.py \
 
 输出名: `num_dets`, 尺寸 1x1，表示检测目标数量。
 
-输出名: `boxes`, 尺寸 1x100x4，表示检测框的坐标，格式为 `x1y1x2y1`。
+输出名: `boxes`, 尺寸 1x100x4，表示检测框的坐标，格式为 `x1y1x2y2`。
 
 输出名: `scores`, 尺寸 1x100，表示检测框的分数。
 
